@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+
+    <title>Booki - Trouvez votre hébergement</title>
+</head>
+
+<body>
+    <!-- container  -->
+    <div class="container">
+        <!-- header -->
+        <header class="header-top">
+            <!-- logo -->
+            <div class="header-top__logo">
+                <a href="#">
+                    <img src="images/logo/Booki@3x.png" alt="logo Booki">
+                </a>
+            </div>
+            <!--end logo  -->
+
+            <!-- navigation  -->
+            <nav class="header-nav" aria-label="Nous services">
+                <ul class="header-nav__list">
+                    <li class="header-nav__list__item active">
+                        <a href="#accommodation">Hébergements</a>
+                    </li>
+                    <li class="header-nav__list__item gray">
+                        <a href="#activities">Activités</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--end navigation  -->
+        </header>
+        <!--end header -->
+    </div>
+    <!--end container  -->
+
+    <!-- research city -->
+    <div class="container">
+        <section class="resear-city">
+            <!-- research city title  -->
+            <div class="resear-city__title">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en plein nature</p>
+            </div>
+            <!--end research city title  -->
+
+            <!-- research city form  -->
+            <div class="resear-city__form">
+                <!-- research city icon  -->
+                <div class="resear-city__form__icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <!--end research city icon   -->
+
+                <!-- research form  -->
+                <div class="resear-city__form__input">
+                    <!-- form  -->
+                    <form method="post">
+                        <input type="text" id="city" name="city" placeholder="Marseille, France"
+                            aria-label="Rechercher votre ville" aria-required="true" required="">
+                        <input class="resear-city__form__btn btn-research" type="submit" value="Rechercher">
+                        <!-- hidden button when page larger -->
+                        <button class="resear-city__form__btn btn-loupe"><i class="fas fa-search"></i></button>
+                        <!-- end hidden button when page larger -->
+                    </form>
+                    <!--end form  -->
+                </div>
+                <!--end research form  -->
+            </div>
+            <!--end research form  -->
+
+            <!-- research filters  -->
+            <div class="resear-city__filters">
+                <div class="resear-city__filter">
+                    <h2>Filters</h2>
+                </div>
+
+                <!-- resear-city__filter-economique  -->
+                <div class="resear-city__filter">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h3>Économique</h3>
+                </div>
+                <!--end resear-city__filter-economique  -->
+
+                <!-- resear-city__filter-familial  -->
+                <div class="resear-city__filter">
+                    <i class="fas fa-child"></i>
+                    <h3>Familial</h3>
+                </div>
+                <!--end resear-city__filter-familial  -->
+
+                <!-- resear-city__filter-Romantique  -->
+                <div class="resear-city__filter">
+                    <i class="fas fa-heart"></i>
+                    <h3>Romantique</h3>
+                </div>
+                <!--end resear-city__filter-romantique  -->
+
+                <!-- resear-city__filter-Animaux autorisés   -->
+                <div class="resear-city__filter">
+                    <i class="fas fa-dog"></i>
+                    <h3>Animaux autorisés</h3>
+                </div>
+                <!--end resear-city__Animaux autorisés  -->
+            </div>
+            <!--end research filters  -->
+
+            <!-- research dispo  -->
+            <div class="resear-city__dispo">
+
+                <!-- research dispo icon  -->
+                <div class="resear-city__dispo__icon">
+                    <div>
+                        <i class="fas fa-info"></i>
+                    </div>
+
+                    <!-- research city dispo texte  -->
+                    <div class="resear-city__dispo__text">
+                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+
+                    </div>
+                    <!-- end research city dispo texte  -->
+                </div>
+                <!--end les housing  -->
+            </div>
+            <!--end research dispo  -->
+        </section>
+        <!--end research -->
+    </div>
+
+    <!-- main container  -->
+    <main class="container">
+        <!-- accommodation -->
+        <section class="accom" id="accommodation" aria-label="Logements">
+            <!-- accommodation Marseille  -->
+            <div class="accom__marseille">
+                <!-- accommodation Marseille title  -->
+                <div class="accom__marseille-title">
+                    <h2>Hébergements à Marseille</h2>
+                </div>
+                <!--end accommodation Marseille title  -->
+
+
+                <!-- accommodation cards  -->
+                <div class="accom__marseille-cards">
+                    <!-- accommodation card  -->
+                    <div class="accom__marseille-cards__card">
+                        <a href="#" role="button" aria-label="Auberge La Cannebière">
+                            <!-- accommodation card image -->
+                            <div class="accom__marseille-cards__img">
+                                <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                    alt="Chambre Auberge la cannebiere">
+                            </div>
+                            <!--end accommodation card image -->
+
+                            <h3>Auberge La Cannebière</h3>
+                            <p>Nuit à partir de <span>25&euro;</span></p>
+
+                            <!-- accommodation card stars -->
+                            <div class="accom__marseille-cards__stars">
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--empty"></i>
+                            </div>
+                            <!--end accommodation card stars -->
+                        </a>
+                    </div>
+                    <!--end accommodation card  -->
+
+                    <!-- accommodation card  -->
+                    <div class="accom__marseille-cards__card">
+                        <a href="#" role="button" aria-label="Hôtel du port">
+                            <!-- accommodation card image -->
+                            <div class="accom__marseille-cards__img">
+                                <img src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                                    alt="Chambre Hôtel du port">
+                            </div>
+                            <!--end accommodation card image -->
+
+                            <h3>Hôtel du port</h3>
+                            <p>Nuit à partir de <span>52&euro;</span></p>
+                            <!-- accommodation card stars -->
+                            <div class="accom__marseille-cards__stars">
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                            </div>
+                            <!-- accommodation card stars -->
+                        </a>
+                    </div>
+                    <!--end accommodation card  -->
+
+                    <!-- accommodation card  -->
+                    <div class="accom__marseille-cards__card">
+                        <a href="#" role="button" aria-label="Hôtel Les mouettes">
+                            <!-- accommodation card image -->
+                            <div class="accom__marseille-cards__img">
+                                <img src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                    alt="Chambre Hôtel les mouettes">
+                            </div>
+                            <!--end accommodation card image -->
+
+                            <h3>Hôtel Les mouettes</h3>
+                            <p>Nuit à partir de <span>76&euro;</span></p>
+                            <!-- accommodation card stars -->
+                            <div class="accom__marseille-cards__stars">
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--empty"></i>
+                            </div>
+                            <!--end accommodation card stars -->
+                        </a>
+                    </div>
+                    <!--end accommodation card  -->
+
+                    <!-- accommodation card  -->
+                    <div class="accom__marseille-cards__card">
+                        <a href="#" role="button" aria-label="Hôtel de la mer">
+                            <!-- accommodation card image -->
+                            <div class="accom__marseille-cards__img">
+                                <img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                    alt="Chambre Hôtel de la mer">
+                            </div>
+                            <!--end accommodation card image -->
+
+                            <h3>Hôtel de la mer</h3>
+                            <p>Nuit à partir de <span>46&euro;</span></p>
+
+                            <!-- accommodation card stars -->
+                            <div class="accom__marseille-cards__stars">
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--empty"></i>
+                                <i class="fas fa-star card__stars--empty"></i>
+                            </div>
+                            <!--end accommodation card stars -->
+                        </a>
+                    </div>
+                    <!--end accommodation card  -->
+
+                    <!-- accommodation card  -->
+                    <div class="accom__marseille-cards__card">
+                        <a href="#" role="button" aria-label="Auberge Le Panier">
+                            <div class="accom__marseille-cards__img">
+                                <img src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                                    alt="Chambre Auberge le panier">
+                            </div>
+
+                            <h3>Auberge Le Panier</h3>
+                            <p>Nuit à partir de <span>23&euro;</span></p>
+
+                            <!-- accommodation card stars -->
+                            <div class="accom__marseille-cards__stars">
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--empty"></i>
+                            </div>
+                            <!--end accommodation card stars -->
+                        </a>
+                    </div>
+                    <!--end accommodation card  -->
+
+                    <!-- accommodation card  -->
+                    <div class="accom__marseille-cards__card">
+                        <a href="#" role="button" aria-label="Hôtel chez Amina">
+                            <!-- accommodation card image -->
+                            <div class="accom__marseille-cards__img">
+                                <img src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                                    alt="Chambre Hôtel chez Amina">
+                            </div>
+                            <!--end accommodation card image -->
+
+                            <h3>Hôtel chez Amina</h3>
+                            <p>Nuit à partir de <span>96&euro;</span></p>
+
+                            <!-- accommodation card stars -->
+                            <div class="accom__marseille-cards__stars">
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                                <i class="fas fa-star card__stars--solid"></i>
+                            </div>
+                            <!--end accommodation card stars -->
+                        </a>
+                    </div>
+                    <!--end accommodation card  -->
+                </div>
+                <!--end accommodation cards  -->
+
+                <!-- accommodation afficher plus  -->
+                <div class="accom__marseille-cards__afficherplus">
+                    <h3>Afficher plus</h3>
+                </div>
+                <!--end accommodation afficher plus  -->
+            </div>
+            <!--end accommodation marseille  -->
+
+
+            <!-- accommodation les plus popular  -->
+            <aside class="accom__popular">
+
+                <!-- accommodation les plus popular  -->
+                <div class="accom__popular-title">
+                    <h2>Les plus populaires</h2>
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <!--end accommodation les plus popular  -->
+
+                <!-- accommodation cards  -->
+                <div class="accom__popular-cards">
+
+                    <!--  accommodation popular card  -->
+                    <div class="accom__popular-cards__card">
+                        <a href="#" role="button" aria-label="Hôtel Le soleil du matin">
+                            <!--  accommodation popular card image  -->
+                            <div class="accom__popular-cards__card__img">
+                                <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                    alt="Chambre Hôtel Le soleil du matin">
+                            </div>
+                            <!--end accommodation popular card image  -->
+
+                            <!-- accommodation popular card info  -->
+                            <div class="accom__popular-cards__card__info">
+                                <h3>Hôtel Le soleil du matin</h3>
+                                <p>Nuit à partir de <span>128&euro;</span></p>
+
+                                <!-- accommodation popular card stars  -->
+                                <div class="accom__popular__stars">
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                </div>
+                                <!--end accommodation popular card stars  -->
+                            </div>
+                            <!--end accommodation popular card info  -->
+                        </a>
+                    </div>
+                    <!--end accommodation popular card   -->
+
+                    <!--  accommodation popular card  -->
+                    <div class="accom__popular-cards__card">
+
+                        <a href="#" role="button" aria-label="Au coeur de l'eau Chambres d'hôtes">
+                            <!--  accommodation popular card image  -->
+                            <div class="accom__popular-cards__card__img">
+                                <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                    alt="Chambre Au coeur de l'eau Chambres d'hôtes">
+                            </div>
+
+                            <!--end accommodation popular card image  -->
+
+                            <!-- accommodation popular card info  -->
+                            <div class="accom__popular-cards__card__info">
+                                <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                                <p>Nuit à partir de <span>71&euro;</span></p>
+
+                                <!-- accommodation popular card stars  -->
+                                <div class="accom__popular__stars">
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--empty"></i>
+                                </div>
+                                <!--end accommodation popular card stars  -->
+                            </div>
+                            <!--end accommodation popular card info  -->
+                        </a>
+                    </div>
+                    <!--end accommodation popular card  -->
+                    <!--  accommodation popular card  -->
+                    <div class="accom__popular-cards__card">
+
+                        <a href="#" role="button" aria-label="Hôtel Tout bleu et Blanc">
+                            <!--  accommodation popular card image  -->
+                            <div class="accom__popular-cards__card__img">
+                                <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                    alt="Chambre Hôtel Tout bleu et Blanc">
+                            </div>
+
+                            <!--end accommodation popular card image  -->
+
+                            <!-- accommodation popular card info  -->
+                            <div class="accom__popular-cards__card__info">
+                                <h3>Hôtel Tout bleu et Blanc</h3>
+                                <p>Nuit à partir de <span>68&euro;</span></p>
+
+                                <!-- accommodation popular card stars  -->
+                                <div class="accom__popular__stars">
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--solid"></i>
+                                    <i class="fas fa-star card__stars--empty"></i>
+                                </div>
+                                <!--end accommodation popular card stars  -->
+                            </div>
+                            <!--end accommodation popular card info  -->
+                        </a>
+                    </div>
+                    <!--end accommodation popular card  -->
+                </div>
+                <!--end accommodation cards  -->
+            </aside>
+            <!--end accommodation les plus popular-->
+        </section>
+        <!--end accommodation Marseille-->
+
+
+        <!-- Activités -->
+        <section class="activ">
+            <!-- Activités a marseille  -->
+            <div class="activ__marseille" id="activities">
+
+                <!-- Activités a marseille title -->
+                <div class="activ__marseille-title">
+                    <h2>Activités à Marseille</h2>
+                </div>
+                <!--end Activités a marseille title -->
+
+                <!-- Activités marseille cards  -->
+                <div class="activ__marseille-cards">
+
+                    <!-- activite marseille card  -->
+                    <div class="activ__marseille-card">
+
+                        <!-- marseille card big  -->
+                        <div class="activ__marseille-card--big">
+                            <a href="#" role="button" aria-label="Vieux Port à Marseille">
+                                <div>
+                                    <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                        alt="Vieux Port a Marseille">
+                                    <h3>Vieux Port</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <!--end marseille card big  -->
+
+                        <!-- marseille card smalls  -->
+                        <div class="activ__marseille-card--double">
+
+                            <!-- marseille card small  -->
+                            <div class="activ__marseille-card--small large">
+                                <a href="#" role="button" aria-label="Fort de Pomègues à Marseille">
+                                    <div>
+                                        <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                            alt="Fort de Pomègues a Marseille">
+                                        <h3>Fort de Pomègues</h3>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <!--end marseille card small  -->
+
+                            <!-- marseille card small  -->
+                            <div class="activ__marseille-card--small short">
+                                <a href="#" role="button" aria-label="Îles du Frioul à Marseille">
+                                    <div>
+                                        <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                            alt="Îles du Frioul a Marseille">
+
+                                        <h3>Îles du Frioul</h3>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <!--fin marseille card small  -->
+                        </div>
+                        <!--fin marseille card smalls  -->
+                    </div>
+                    <!--end activite marseille card  -->
+
+                    <!-- activite marseille card  -->
+                    <div class="activ__marseille-card">
+
+                        <!-- marseille card big  -->
+                        <div class="activ__marseille-card--big">
+                            <a href="#" role="button" aria-label="Parc National des Calanques à Marseille">
+                                <div>
+                                    <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                                        alt="Parc National des Calanques a Marseille">
+
+                                    <h3>Parc National des Calanques</h3>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!--end marseille card big  -->
+
+                        <!-- marseille card smalls  -->
+                        <div class="activ__marseille-card--double">
+
+                            <!-- marseille card small  -->
+                            <div class="activ__marseille-card--small">
+                                <a href="#" role="button" aria-label="Notre Dame de la Garde à Marseille">
+                                    <div>
+                                        <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                            alt="Notre Dame de la Garde à Marseille">
+
+                                        <h3>Notre-Dame-de-la-Garde</h3>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <!--end marseille card small  -->
+
+                            <!-- marseille card small  -->
+                            <div class="activ__marseille-card--small">
+                                <a href="#" role="button" aria-label="Parc Longchamp à Marseille">
+                                    <div>
+                                        <img src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                            alt="Parc Longchamp a Marseille">
+                                        <h3>Parc Longchamp</h3>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <!--end marseille card small  -->
+                        </div>
+                        <!--fin marseille card smalls  -->
+                    </div>
+                </div>
+                <!--end Activités cards  -->
+            </div>
+            <!--end Activités a marseille  -->
+        </section>
+        <!--end activités -->
+    </main>
+    <!--end main container  -->
+
+    <!-- footer -->
+    <div class="footer" role="contentinfo">
+        <section class="container footer__container" aria-label="Pied de page">
+
+            <!-- footer a propos  -->
+            <div class="footer__about">
+                <h3>A propos</h3>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
+            </div>
+            <!--end footer a propos  -->
+
+            <!-- footer our-accommodation  -->
+            <div class="footer__our-accommodation">
+                <h3>Nos hébergements</h3>
+                <ul>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
+                </ul>
+            </div>
+            <!-- end footer our-accommodation  -->
+
+            <!-- footer assistance  -->
+            <div class="footer__assistance">
+                <h3>Assistance</h3>
+                <ul>
+                    <li><a href="#">Centre d´aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
+            </div>
+            <!--end footer assistance  -->
+        </section>
+    </div>
+    <!--end footer -->
+
+</body>
+
+</html>
